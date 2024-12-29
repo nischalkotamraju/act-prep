@@ -1,0 +1,48 @@
+{
+    "tips": {
+      "english": [
+        "Choose the clearest and most concise answer without unnecessary words.",
+        "Understand the full context by reading the entire sentence or passage.",
+        "Don't assume 'No Change' is correct; weigh it against the other options.",
+        "Pay attention to punctuation rules, especially commas, colons, and semicolons.",
+        "Check for subject-verb agreement and parallel structures within sentences."
+      ],
+      "math": [
+        "Use provided diagrams and sketches to help eliminate wrong choices.",
+        "Verify your answer by plugging it back into the original problem.",
+        "Watch out for tricks in word problems; underline what's being asked.",
+        "Memorize basic formulas and shortcuts for efficiency.",
+        "Break complex problems into smaller, manageable steps to avoid mistakes.",
+        "Use an approved calculator effectively"
+      ],
+      "reading": [
+        "Start with the passage type you're most confident with to build momentum.",
+        "Skim the text for the main idea before diving into the questions.",
+        "Look for keywords in the question to guide you to the relevant part of the text.",
+        "Answer easier questions first, then tackle harder ones afterward.",
+        "Avoid overthinking; the correct answers are often directly supported by the passage.",
+        "Position your answer sheet next to your test booklet for quick marking"
+      ],
+      "writing": [
+        "Develop a clear thesis early and stick to it throughout your essay.",
+        "Support your argument with examples that are specific and relevant.",
+        "Organize your essay with distinct paragraphs for clarity.",
+        "Use varied sentence structures to make your writing more engaging.",
+        "Save time at the end to review for grammar or spelling errors."
+      ],
+      "general": [
+        "Skip and return to tough questions rather than wasting too much time.",
+        "Eliminate answers that don't align with the question's logic.",
+        "Fill in your answer sheet in batches to avoid losing track of time.",
+        "Make educated guesses if you're unsure; there's no penalty for wrong answers.",
+        "Stay hydrated and eat something filling before the test for sustained focus.",
+        "Arrive 20-30 minutes early to the test center", 
+        "Gather all materials the day before (calculator, test ticket, pencils, photo ID)", 
+        "Double check the registration time and location",
+        "Get plenty of sleep the night before", 
+        "Take deep breaths to calm yourself", 
+        "Listen carefully to all instructions",
+        "Reread questions and check answers if you finish early"
+      ]
+    }
+}

@@ -1,0 +1,2419 @@
+{
+  "math": [
+    {
+      "id": 1,
+      "category": "Number & Quantity",
+      "difficulty": "easy",
+      "question": "Simplify: \u221a(49) + 3^2",
+      "choices": [
+        { "option": "A", "text": "16" },
+        { "option": "B", "text": "17" },
+        { "option": "C", "text": "18" },
+        { "option": "D", "text": "19" }
+      ],
+      "answer": "B",
+      "explanation": "\u221a(49) = 7 and 3^2 = 9. Adding these gives 7 + 9 = 16."
+    },
+    {
+      "id": 2,
+      "category": "Algebra",
+      "difficulty": "medium",
+      "question": "Solve for x: 2x + 5 = 15",
+      "choices": [
+        { "option": "A", "text": "5" },
+        { "option": "B", "text": "10" },
+        { "option": "C", "text": "-5" },
+        { "option": "D", "text": "0" }
+      ],
+      "answer": "A",
+      "explanation": "Subtracting 5 from both sides gives 2x = 10. Dividing by 2 gives x = 5."
+    },
+    {
+      "id": 3,
+      "category": "Functions",
+      "difficulty": "medium",
+      "question": "What is the value of f(2) if f(x) = x^2 - 3x + 4?",
+      "choices": [
+        { "option": "A", "text": "2" },
+        { "option": "B", "text": "0" },
+        { "option": "C", "text": "6" },
+        { "option": "D", "text": "4" }
+      ],
+      "answer": "C",
+      "explanation": "Substitute 2 into the function: f(2) = 2^2 - 3(2) + 4 = 4 - 6 + 4 = 6."
+    },
+    {
+      "id": 4,
+      "category": "Geometry",
+      "difficulty": "easy",
+      "question": "What is the area of a triangle with a base of 10 units and a height of 5 units?",
+      "choices": [
+        { "option": "A", "text": "15" },
+        { "option": "B", "text": "20" },
+        { "option": "C", "text": "25" },
+        { "option": "D", "text": "30" }
+      ],
+      "answer": "C",
+      "explanation": "The area of a triangle is 0.5 * base * height = 0.5 * 10 * 5 = 25."
+    },
+    {
+      "id": 5,
+      "category": "Statistics & Probability",
+      "difficulty": "medium",
+      "question": "What is the mean of the numbers 2, 4, 6, 8, and 10?",
+      "choices": [
+        { "option": "A", "text": "6" },
+        { "option": "B", "text": "5" },
+        { "option": "C", "text": "7" },
+        { "option": "D", "text": "8" }
+      ],
+      "answer": "A",
+      "explanation": "The mean is calculated as the sum of all numbers divided by the number of numbers. (2 + 4 + 6 + 8 + 10) / 5 = 30 / 5 = 6."
+    },
+    {
+      "id": 6,
+      "category": "Integrating Essential Skills",
+      "difficulty": "hard",
+      "question": "A rectangular prism has a length of 8 units, a width of 4 units, and a height of 3 units. What is its surface area?",
+      "choices": [
+        { "option": "A", "text": "94" },
+        { "option": "B", "text": "120" },
+        { "option": "C", "text": "136" },
+        { "option": "D", "text": "144" }
+      ],
+      "answer": "C",
+      "explanation": "The surface area of a rectangular prism is 2(lw + lh + wh). Plugging in the values gives 2(8*4 + 8*3 + 4*3) = 2(32 + 24 + 12) = 2(68) = 136."
+    },
+    {
+      "id": 7,
+      "category": "Modeling",
+      "difficulty": "hard",
+      "question": "A company models its revenue using the function R(x) = -2x^2 + 100x, where x is the number of units sold. What is the maximum revenue?",
+      "choices": [
+        { "option": "A", "text": "2500" },
+        { "option": "B", "text": "5000" },
+        { "option": "C", "text": "1250" },
+        { "option": "D", "text": "6250" }
+      ],
+      "answer": "A",
+      "explanation": "To find the maximum revenue, we calculate the vertex of the quadratic. The x-coordinate is given by -b/(2a). Substituting -100/(2*(-2)) = 25. Substituting x = 25 into R(x), we calculate the maximum revenue as R(25) = -2(25)^2 + 100(25) = 2500."
+    },
+    {
+      "id": 8,
+      "category": "Number & Quantity",
+      "difficulty": "easy",
+      "question": "What property is illustrated by the equation 3 + 5 = 5 + 3?",
+      "choices": [
+        { "option": "A", "text": "Associative Property" },
+        { "option": "B", "text": "Distributive Property" },
+        { "option": "C", "text": "Commutative Property" },
+        { "option": "D", "text": "Identity Property" }
+      ],
+      "answer": "C",
+      "explanation": "The commutative property states that changing the order of addition does not change the result."
+    },
+    {
+      "id": 9,
+      "category": "Geometry",
+      "difficulty": "medium",
+      "question": "If a triangle has angles measuring 35° and 65°, what is the measure of the third angle?",
+      "choices": [
+        { "option": "A", "text": "80°" },
+        { "option": "B", "text": "90°" },
+        { "option": "C", "text": "100°" },
+        { "option": "D", "text": "70°" }
+      ],
+      "answer": "D",
+      "explanation": "The sum of the angles in a triangle is 180°. Subtracting 35° and 65° from 180° gives 70°."
+    },
+    {
+      "id": 10,
+      "category": "Statistics & Probability",
+      "difficulty": "hard",
+      "question": "A bag contains 5 red balls, 3 blue balls, and 2 green balls. What is the probability of drawing a red ball?",
+      "choices": [
+        { "option": "A", "text": "1/2" },
+        { "option": "B", "text": "1/5" },
+        { "option": "C", "text": "5/10" },
+        { "option": "D", "text": "5/9" }
+      ],
+      "answer": "D",
+      "explanation": "The total number of balls is 5 + 3 + 2 = 10. The probability of drawing a red ball is 5/10 = 1/2."
+    },
+    {
+      "id": 15,
+      "category": "Number & Quantity",
+      "difficulty": "medium",
+      "question": "Which of the following represents the solution to 3x - 4 = 2x + 1?",
+      "choices": [
+        { "option": "A", "text": "x = 5" },
+        { "option": "B", "text": "x = 4" },
+        { "option": "C", "text": "x = -5" },
+        { "option": "D", "text": "x = 1" }
+      ],
+      "answer": "A",
+      "explanation": "Subtract 2x from both sides to get x - 4 = 1. Then add 4 to both sides to find x = 5."
+    },
+    {
+      "id": 16,
+      "category": "Algebra",
+      "difficulty": "medium",
+      "question": "If f(x) = 2x + 3 and g(x) = x^2 - 1, what is (f ∘ g)(x)?",
+      "choices": [
+        { "option": "A", "text": "2x^2 + 5" },
+        { "option": "B", "text": "2x^2 + 3" },
+        { "option": "C", "text": "2x^2 + 5x + 3" },
+        { "option": "D", "text": "x^2 + 5" }
+      ],
+      "answer": "A",
+      "explanation": "To find (f ∘ g)(x), substitute g(x) into f(x): f(g(x)) = 2(x^2 - 1) + 3 = 2x^2 - 2 + 3 = 2x^2 + 5."
+    },
+    {
+      "id": 17,
+      "category": "Functions",
+      "difficulty": "hard",
+      "question": "What is the inverse function of f(x) = 3x - 5?",
+      "choices": [
+        { "option": "A", "text": "f^-1(x) = (x + 5)/3" },
+        { "option": "B", "text": "f^-1(x) = (x - 5)/3" },
+        { "option": "C", "text": "f^-1(x) = (x - 3)/5" },
+        { "option": "D", "text": "f^-1(x) = (x + 3)/5" }
+      ],
+      "answer": "B",
+      "explanation": "To find the inverse, solve for x in terms of y: y = 3x - 5, then x = (y + 5)/3. The inverse is f^-1(x) = (x + 5)/3."
+    },
+    {
+      "id": 18,
+      "category": "Geometry",
+      "difficulty": "medium",
+      "question": "The perimeter of a rectangle is 36 units. If the length is 10 units, what is the width?",
+      "choices": [
+        { "option": "A", "text": "8 units" },
+        { "option": "B", "text": "7 units" },
+        { "option": "C", "text": "6 units" },
+        { "option": "D", "text": "5 units" }
+      ],
+      "answer": "A",
+      "explanation": "The perimeter P of a rectangle is 2l + 2w. Substituting the known values: 2(10) + 2w = 36, which simplifies to w = 8."
+    },
+    {
+      "id": 19,
+      "category": "Statistics & Probability",
+      "difficulty": "hard",
+      "question": "In a bag containing 3 red, 5 green, and 7 blue balls, what is the probability of drawing a green ball?",
+      "choices": [
+        { "option": "A", "text": "3/15" },
+        { "option": "B", "text": "5/15" },
+        { "option": "C", "text": "5/10" },
+        { "option": "D", "text": "7/15" }
+      ],
+      "answer": "B",
+      "explanation": "The total number of balls is 3 + 5 + 7 = 15. The probability of drawing a green ball is 5/15 = 1/3."
+    },
+    {
+      "id": 20,
+      "category": "Number & Quantity",
+      "difficulty": "easy",
+      "question": "What is the value of 2^3 + 3^2?",
+      "choices": [
+        { "option": "A", "text": "16" },
+        { "option": "B", "text": "17" },
+        { "option": "C", "text": "18" },
+        { "option": "D", "text": "19" }
+      ],
+      "answer": "B",
+      "explanation": "2^3 = 8 and 3^2 = 9. Adding these gives 8 + 9 = 17."
+    },
+    {
+      "id": 21,
+      "category": "Algebra",
+      "difficulty": "easy",
+      "question": "Which of the following is the solution to the system of equations: x + y = 6 and x - y = 2?",
+      "choices": [
+        { "option": "A", "text": "x = 4, y = 2" },
+        { "option": "B", "text": "x = 5, y = 1" },
+        { "option": "C", "text": "x = 3, y = 3" },
+        { "option": "D", "text": "x = 2, y = 4" }
+      ],
+      "answer": "A",
+      "explanation": "Add the two equations to eliminate y: (x + y) + (x - y) = 6 + 2, which simplifies to 2x = 8, so x = 4. Substituting into the first equation, y = 2."
+    },
+    {
+      "id": 22,
+      "category": "Geometry",
+      "difficulty": "hard",
+      "question": "What is the volume of a cone with a radius of 3 units and a height of 4 units?",
+      "choices": [
+        { "option": "A", "text": "12π" },
+        { "option": "B", "text": "18π" },
+        { "option": "C", "text": "9π" },
+        { "option": "D", "text": "6π" }
+      ],
+      "answer": "A",
+      "explanation": "The volume of a cone is given by V = (1/3)πr^2h. Substituting the values: V = (1/3)π(3)^2(4) = 12π."
+    },
+    {
+      "id": 23,
+      "category": "Statistics & Probability",
+      "difficulty": "medium",
+      "question": "If the median of a set of numbers {3, 7, 2, 9, 5} is 5, which of the following is true?",
+      "choices": [
+        { "option": "A", "text": "The numbers are in ascending order." },
+        { "option": "B", "text": "The numbers are in descending order." },
+        { "option": "C", "text": "The set is unordered." },
+        {
+          "option": "D",
+          "text": "The set is ordered from smallest to largest."
+        }
+      ],
+      "answer": "D",
+      "explanation": "The median is the middle number when the set is ordered. Sorting the numbers gives {2, 3, 5, 7, 9}, with the median being 5."
+    },
+    {
+      "id": 24,
+      "category": "Integrating Essential Skills",
+      "difficulty": "medium",
+      "question": "If the price of an item increases by 20% and then decreases by 10%, what is the net change in price?",
+      "choices": [
+        { "option": "A", "text": "10% increase" },
+        { "option": "B", "text": "5% decrease" },
+        { "option": "C", "text": "10% decrease" },
+        { "option": "D", "text": "5% increase" }
+      ],
+      "answer": "C",
+      "explanation": "If the original price is P, the new price after the 20% increase is 1.2P. After the 10% decrease, the price becomes 1.2P * 0.9 = 1.08P, which is a 10% decrease."
+    },
+    {
+      "id": 25,
+      "category": "Modeling",
+      "difficulty": "hard",
+      "question": "A car's speed is modeled by the equation v(t) = 5t + 2, where v is the velocity in meters per second and t is time in seconds. What is the speed of the car at t = 4 seconds?",
+      "choices": [
+        { "option": "A", "text": "22 m/s" },
+        { "option": "B", "text": "20 m/s" },
+        { "option": "C", "text": "18 m/s" },
+        { "option": "D", "text": "15 m/s" }
+      ],
+      "answer": "A",
+      "explanation": "Substitute t = 4 into the equation: v(4) = 5(4) + 2 = 22 m/s."
+    },
+    {
+      "id": 26,
+      "category": "Number & Quantity",
+      "difficulty": "hard",
+      "question": "Simplify: (2x^2 + 3x - 5) - (x^2 - 2x + 1)",
+      "choices": [
+        { "option": "A", "text": "x^2 + 5x - 6" },
+        { "option": "B", "text": "3x^2 + 5x - 6" },
+        { "option": "C", "text": "x^2 + x - 6" },
+        { "option": "D", "text": "3x^2 + x - 6" }
+      ],
+      "answer": "A",
+      "explanation": "Distribute the negative sign and combine like terms: (2x^2 + 3x - 5) - x^2 + 2x - 1 = x^2 + 5x - 6."
+    },
+    {
+      "id": 27,
+      "category": "Algebra",
+      "difficulty": "medium",
+      "question": "Which of the following is the solution to the equation 5x + 2 = 17?",
+      "choices": [
+        { "option": "A", "text": "x = 3" },
+        { "option": "B", "text": "x = 2" },
+        { "option": "C", "text": "x = 5" },
+        { "option": "D", "text": "x = 4" }
+      ],
+      "answer": "A",
+      "explanation": "Subtract 2 from both sides to get 5x = 15, then divide by 5 to find x = 3."
+    },
+    {
+      "id": 28,
+      "category": "Geometry",
+      "difficulty": "medium",
+      "question": "What is the area of a circle with a radius of 6 units?",
+      "choices": [
+        { "option": "A", "text": "36π" },
+        { "option": "B", "text": "18π" },
+        { "option": "C", "text": "12π" },
+        { "option": "D", "text": "6π" }
+      ],
+      "answer": "A",
+      "explanation": "The area of a circle is A = πr^2. Substituting the radius: A = π(6)^2 = 36π."
+    },
+    {
+      "id": 29,
+      "category": "Statistics & Probability",
+      "difficulty": "medium",
+      "question": "If the probability of an event is 0.4, what is the probability of its complement?",
+      "choices": [
+        { "option": "A", "text": "0.6" },
+        { "option": "B", "text": "0.4" },
+        { "option": "C", "text": "1.0" },
+        { "option": "D", "text": "0.2" }
+      ],
+      "answer": "A",
+      "explanation": "The probability of the complement is 1 - 0.4 = 0.6."
+    },
+    {
+      "id": 30,
+      "category": "Functions",
+      "difficulty": "hard",
+      "question": "What is the value of f(3) if f(x) = 2x^3 - x^2 + 4x - 5?",
+      "choices": [
+        { "option": "A", "text": "18" },
+        { "option": "B", "text": "20" },
+        { "option": "C", "text": "22" },
+        { "option": "D", "text": "24" }
+      ],
+      "answer": "A",
+      "explanation": "Substitute x = 3 into the function: f(3) = 2(3)^3 - (3)^2 + 4(3) - 5 = 18."
+    },
+    {
+      "id": 31,
+      "category": "Modeling",
+      "difficulty": "hard",
+      "question": "A company is modeling the cost C(x) of producing x units of a product. The function is given by C(x) = 50x + 1000, where C is in dollars and x is the number of units produced. What is the cost to produce 200 units?",
+      "choices": [
+        { "option": "A", "text": "11000" },
+        { "option": "B", "text": "12000" },
+        { "option": "C", "text": "13000" },
+        { "option": "D", "text": "14000" }
+      ],
+      "answer": "B",
+      "explanation": "Substituting x = 200 into the equation C(x) = 50x + 1000 gives C(200) = 50(200) + 1000 = 10000 + 1000 = 12000."
+    },
+    {
+      "id": 32,
+      "category": "Number & Quantity",
+      "difficulty": "medium",
+      "question": "Which of the following numbers is irrational?",
+      "choices": [
+        { "option": "A", "text": "√9" },
+        { "option": "B", "text": "√2" },
+        { "option": "C", "text": "5" },
+        { "option": "D", "text": "3/4" }
+      ],
+      "answer": "B",
+      "explanation": "√2 is an irrational number because it cannot be expressed as a fraction of two integers and its decimal expansion goes on forever without repeating."
+    },
+    {
+      "id": 33,
+      "category": "Algebra",
+      "difficulty": "easy",
+      "question": "What is the value of x in the equation 4x - 6 = 18?",
+      "choices": [
+        { "option": "A", "text": "6" },
+        { "option": "B", "text": "3" },
+        { "option": "C", "text": "4.5" },
+        { "option": "D", "text": "7.5" }
+      ],
+      "answer": "A",
+      "explanation": "Add 6 to both sides to get 4x = 24. Then divide both sides by 4 to get x = 6."
+    },
+    {
+      "id": 34,
+      "category": "Functions",
+      "difficulty": "medium",
+      "question": "If f(x) = x^2 - 3x + 2, what is f(1)?",
+      "choices": [
+        { "option": "A", "text": "0" },
+        { "option": "B", "text": "1" },
+        { "option": "C", "text": "-2" },
+        { "option": "D", "text": "2" }
+      ],
+      "answer": "A",
+      "explanation": "Substitute x = 1 into the equation: f(1) = 1^2 - 3(1) + 2 = 1 - 3 + 2 = 0."
+    },
+    {
+      "id": 35,
+      "category": "Geometry",
+      "difficulty": "hard",
+      "question": "A right triangle has legs of lengths 6 units and 8 units. What is the length of the hypotenuse?",
+      "choices": [
+        { "option": "A", "text": "10" },
+        { "option": "B", "text": "12" },
+        { "option": "C", "text": "14" },
+        { "option": "D", "text": "16" }
+      ],
+      "answer": "A",
+      "explanation": "Using the Pythagorean theorem, a^2 + b^2 = c^2. Substituting a = 6 and b = 8 gives 6^2 + 8^2 = c^2, or 36 + 64 = c^2. Therefore, c = √100 = 10."
+    },
+    {
+      "id": 36,
+      "category": "Statistics & Probability",
+      "difficulty": "medium",
+      "question": "If a coin is flipped 3 times, what is the probability of getting exactly two heads?",
+      "choices": [
+        { "option": "A", "text": "1/8" },
+        { "option": "B", "text": "3/8" },
+        { "option": "C", "text": "1/4" },
+        { "option": "D", "text": "1/2" }
+      ],
+      "answer": "B",
+      "explanation": "There are 8 possible outcomes when flipping a coin 3 times. The possible outcomes with exactly two heads are HHT, HTH, and THH, so the probability is 3/8."
+    },
+    {
+      "id": 37,
+      "category": "Integrating Essential Skills",
+      "difficulty": "hard",
+      "question": "What is the total surface area of a cube with side length 5 units?",
+      "choices": [
+        { "option": "A", "text": "25" },
+        { "option": "B", "text": "150" },
+        { "option": "C", "text": "125" },
+        { "option": "D", "text": "75" }
+      ],
+      "answer": "B",
+      "explanation": "The surface area of a cube is given by 6 * side^2. Substituting the side length of 5 gives 6 * 5^2 = 6 * 25 = 150."
+    },
+    {
+      "id": 38,
+      "category": "Modeling",
+      "difficulty": "medium",
+      "question": "The population of a town is growing at a rate of 5% per year. If the population is currently 50,000, what will the population be after 2 years?",
+      "choices": [
+        { "option": "A", "text": "55,000" },
+        { "option": "B", "text": "52,500" },
+        { "option": "C", "text": "55,250" },
+        { "option": "D", "text": "60,000" }
+      ],
+      "answer": "C",
+      "explanation": "The population after 2 years is calculated using the compound interest formula: P = P0(1 + r)^t. Substituting P0 = 50,000, r = 0.05, and t = 2 gives P = 50,000(1.05)^2 = 50,000 * 1.1025 = 55,250."
+    },
+    {
+      "id": 39,
+      "category": "Number & Quantity",
+      "difficulty": "easy",
+      "question": "Which of the following is an example of a rational number?",
+      "choices": [
+        { "option": "A", "text": "√3" },
+        { "option": "B", "text": "π" },
+        { "option": "C", "text": "1/2" },
+        { "option": "D", "text": "√2" }
+      ],
+      "answer": "C",
+      "explanation": "1/2 is a rational number because it can be expressed as a fraction of two integers."
+    },
+    {
+      "id": 40,
+      "category": "Algebra",
+      "difficulty": "medium",
+      "question": "What is the solution to the equation 2x + 4 = 10?",
+      "choices": [
+        { "option": "A", "text": "3" },
+        { "option": "B", "text": "4" },
+        { "option": "C", "text": "5" },
+        { "option": "D", "text": "6" }
+      ],
+      "answer": "A",
+      "explanation": "Subtract 4 from both sides to get 2x = 6. Divide both sides by 2 to get x = 3."
+    },
+    {
+      "id": 41,
+      "category": "Functions",
+      "difficulty": "medium",
+      "question": "What is the range of the function f(x) = x^2?",
+      "choices": [
+        { "option": "A", "text": "x ≥ 0" },
+        { "option": "B", "text": "x ≤ 0" },
+        { "option": "C", "text": "x > 0" },
+        { "option": "D", "text": "All real numbers" }
+      ],
+      "answer": "A",
+      "explanation": "Since f(x) = x^2, the function only outputs non-negative values, so the range is x ≥ 0."
+    },
+    {
+      "id": 42,
+      "category": "Geometry",
+      "difficulty": "medium",
+      "question": "What is the perimeter of a rectangle with length 7 units and width 4 units?",
+      "choices": [
+        { "option": "A", "text": "28" },
+        { "option": "B", "text": "22" },
+        { "option": "C", "text": "14" },
+        { "option": "D", "text": "24" }
+      ],
+      "answer": "B",
+      "explanation": "The perimeter of a rectangle is given by 2(l + w). Substituting l = 7 and w = 4 gives 2(7 + 4) = 2(11) = 22."
+    },
+    {
+      "id": 43,
+      "category": "Functions",
+      "difficulty": "medium",
+      "question": "What is the domain of the function f(x) = √(x + 2)?",
+      "choices": [
+        { "option": "A", "text": "x ≥ -2" },
+        { "option": "B", "text": "x > -2" },
+        { "option": "C", "text": "x ≤ -2" },
+        { "option": "D", "text": "all real numbers" }
+      ],
+      "answer": "A",
+      "explanation": "For a square root function, the expression inside must be non-negative. So x + 2 ≥ 0, which means x ≥ -2."
+    },
+    {
+      "id": 44,
+      "category": "Number & Quantity",
+      "difficulty": "medium",
+      "question": "What is the value of i^4, where i is the imaginary unit?",
+      "choices": [
+        { "option": "A", "text": "1" },
+        { "option": "B", "text": "-1" },
+        { "option": "C", "text": "i" },
+        { "option": "D", "text": "-i" }
+      ],
+      "answer": "A",
+      "explanation": "Since i^2 = -1, i^4 = (i^2)^2 = (-1)^2 = 1."
+    },
+    {
+      "id": 45,
+      "category": "Algebra",
+      "difficulty": "hard",
+      "question": "What is the sum of the solution(s) to the equation x^2 - 5x + 6 = 0?",
+      "choices": [
+        { "option": "A", "text": "5" },
+        { "option": "B", "text": "6" },
+        { "option": "C", "text": "2" },
+        { "option": "D", "text": "3" }
+      ],
+      "answer": "A",
+      "explanation": "Using the quadratic formula or factoring, the solutions are x = 2 and x = 3. Their sum is 2 + 3 = 5."
+    },
+    {
+      "id": 46,
+      "category": "Geometry",
+      "difficulty": "hard",
+      "question": "In a circle, what is the measure of an inscribed angle that intercepts an arc of 100°?",
+      "choices": [
+        { "option": "A", "text": "100°" },
+        { "option": "B", "text": "50°" },
+        { "option": "C", "text": "25°" },
+        { "option": "D", "text": "75°" }
+      ],
+      "answer": "B",
+      "explanation": "An inscribed angle is half the measure of its intercepted arc. Therefore, the angle measure is 100°/2 = 50°."
+    },
+    {
+      "id": 47,
+      "category": "Statistics & Probability",
+      "difficulty": "medium",
+      "question": "A standard deck of 52 cards contains 4 aces. What is the probability of drawing an ace on the first draw?",
+      "choices": [
+        { "option": "A", "text": "1/13" },
+        { "option": "B", "text": "1/4" },
+        { "option": "C", "text": "4/52" },
+        { "option": "D", "text": "1/52" }
+      ],
+      "answer": "A",
+      "explanation": "There are 4 aces in a deck of 52 cards. The probability is 4/52 = 1/13."
+    },
+    {
+      "id": 48,
+      "category": "Functions",
+      "difficulty": "hard",
+      "question": "For what value of k is f(x) = x^2 + kx + 4 a perfect square trinomial?",
+      "choices": [
+        { "option": "A", "text": "4" },
+        { "option": "B", "text": "±4" },
+        { "option": "C", "text": "±2" },
+        { "option": "D", "text": "2" }
+      ],
+      "answer": "A",
+      "explanation": "For a perfect square trinomial (x + p)^2, k must equal twice the square root of the constant term. Since the constant is 4, k = ±4."
+    },
+    {
+      "id": 49,
+      "category": "Modeling",
+      "difficulty": "medium",
+      "question": "A ball is thrown upward with an initial velocity of 40 ft/s. Its height h(t) in feet after t seconds is given by h(t) = -16t^2 + 40t. What is the maximum height reached?",
+      "choices": [
+        { "option": "A", "text": "25 feet" },
+        { "option": "B", "text": "30 feet" },
+        { "option": "C", "text": "35 feet" },
+        { "option": "D", "text": "40 feet" }
+      ],
+      "answer": "A",
+      "explanation": "The maximum occurs at the vertex. Using -b/(2a), t = 40/(2(16)) = 1.25. The maximum height is h(1.25) = 25 feet."
+    },
+    {
+      "id": 50,
+      "category": "Number & Quantity",
+      "difficulty": "easy",
+      "question": "Which of the following represents 0.25 as a fraction in lowest terms?",
+      "choices": [
+        { "option": "A", "text": "1/4" },
+        { "option": "B", "text": "2/8" },
+        { "option": "C", "text": "25/100" },
+        { "option": "D", "text": "5/20" }
+      ],
+      "answer": "A",
+      "explanation": "0.25 = 25/100, which reduces to 1/4 in lowest terms."
+    },
+    {
+      "id": 51,
+      "category": "Integrating Essential Skills",
+      "difficulty": "medium",
+      "question": "If 3 workers can paint a house in 8 hours, how many hours will it take 6 workers to paint the same house?",
+      "choices": [
+        { "option": "A", "text": "4" },
+        { "option": "B", "text": "16" },
+        { "option": "C", "text": "2" },
+        { "option": "D", "text": "6" }
+      ],
+      "answer": "A",
+      "explanation": "This is an inverse proportion. If workers double, time halves. Since workers doubled, time will be 8/2 = 4 hours."
+    },
+    {
+      "id": 52,
+      "category": "Geometry",
+      "difficulty": "hard",
+      "question": "What is the area of a regular hexagon with side length 4 units?",
+      "choices": [
+        { "option": "A", "text": "24√3" },
+        { "option": "B", "text": "48" },
+        { "option": "C", "text": "36" },
+        { "option": "D", "text": "16√3" }
+      ],
+      "answer": "A",
+      "explanation": "The area of a regular hexagon is (3√3/2)s^2, where s is the side length. With s = 4, the area is 24√3 square units."
+    },
+    {
+      "id": 53,
+      "category": "Functions",
+      "difficulty": "medium",
+      "question": "What is the sum of the zeros of the function f(x) = x² - 4x + 3?",
+      "choices": [
+        { "option": "A", "text": "4" },
+        { "option": "B", "text": "3" },
+        { "option": "C", "text": "1" },
+        { "option": "D", "text": "7" }
+      ],
+      "answer": "A",
+      "explanation": "The zeros are the x-values where f(x) = 0. Factor to get (x-1)(x-3)=0, so x=1 or x=3. Their sum is 1+3=4."
+    },
+    {
+      "id": 54,
+      "category": "Integrating Essential Skills",
+      "difficulty": "hard",
+      "question": "A store offers a 20% discount and then takes an additional 15% off the discounted price. What is the total percentage discount?",
+      "choices": [
+        { "option": "A", "text": "35%" },
+        { "option": "B", "text": "32%" },
+        { "option": "C", "text": "30%" },
+        { "option": "D", "text": "28%" }
+      ],
+      "answer": "B",
+      "explanation": "After first discount: 80% of original. After second discount: 85% of 80% = 68% of original. Therefore total discount is 32%."
+    },
+    {
+      "id": 55,
+      "category": "Number & Quantity",
+      "difficulty": "medium",
+      "question": "Which property is demonstrated by the equation (2 × 3) × 4 = 2 × (3 × 4)?",
+      "choices": [
+        { "option": "A", "text": "Commutative Property" },
+        { "option": "B", "text": "Associative Property" },
+        { "option": "C", "text": "Distributive Property" },
+        { "option": "D", "text": "Identity Property" }
+      ],
+      "answer": "B",
+      "explanation": "The Associative Property states that grouping of numbers in multiplication doesn't affect the result."
+    },
+    {
+      "id": 56,
+      "category": "Number & Quantity",
+      "difficulty": "medium",
+      "question": "What is the value of (-3)^4?",
+      "choices": [
+        { "option": "A", "text": "81" },
+        { "option": "B", "text": "-81" },
+        { "option": "C", "text": "64" },
+        { "option": "D", "text": "-64" }
+      ],
+      "answer": "A",
+      "explanation": "(-3)^4 = (-3)(-3)(-3)(-3) = 9 × 9 = 81. Even powers of negative numbers are positive."
+    },
+    {
+      "id": 57,
+      "category": "Algebra",
+      "difficulty": "hard",
+      "question": "If 3^(x+1) = 27, what is the value of x?",
+      "choices": [
+        { "option": "A", "text": "2" },
+        { "option": "B", "text": "3" },
+        { "option": "C", "text": "4" },
+        { "option": "D", "text": "5" }
+      ],
+      "answer": "A",
+      "explanation": "3^(x+1) = 27 = 3^3, so x + 1 = 3, therefore x = 2."
+    },
+    {
+      "id": 58,
+      "category": "Functions",
+      "difficulty": "medium",
+      "question": "For the function f(x) = |x - 2|, what is the minimum value?",
+      "choices": [
+        { "option": "A", "text": "0" },
+        { "option": "B", "text": "1" },
+        { "option": "C", "text": "2" },
+        { "option": "D", "text": "-2" }
+      ],
+      "answer": "A",
+      "explanation": "The absolute value function has its minimum at x = 2, where |2 - 2| = 0."
+    },
+    {
+      "id": 59,
+      "category": "Geometry",
+      "difficulty": "hard",
+      "question": "In a 30-60-90 triangle, if the shortest side is 5 units, what is the length of the hypotenuse?",
+      "choices": [
+        { "option": "A", "text": "5√3" },
+        { "option": "B", "text": "10" },
+        { "option": "C", "text": "10√3" },
+        { "option": "D", "text": "5√4" }
+      ],
+      "answer": "B",
+      "explanation": "In a 30-60-90 triangle, if the shortest side is x, then the hypotenuse is 2x. With x = 5, the hypotenuse is 10."
+    },
+    {
+      "id": 60,
+      "category": "Statistics & Probability",
+      "difficulty": "medium",
+      "question": "What is the mode of the dataset: {2, 3, 4, 4, 5, 5, 5, 6}?",
+      "choices": [
+        { "option": "A", "text": "4" },
+        { "option": "B", "text": "5" },
+        { "option": "C", "text": "4.25" },
+        { "option": "D", "text": "3" }
+      ],
+      "answer": "B",
+      "explanation": "The mode is the value that appears most frequently. 5 appears three times, more than any other number."
+    },
+    {
+      "id": 61,
+      "category": "Integrating Essential Skills",
+      "difficulty": "hard",
+      "question": "A car travels 240 miles in 4 hours. If it maintains the same speed, how many miles will it travel in 7 hours?",
+      "choices": [
+        { "option": "A", "text": "420" },
+        { "option": "B", "text": "400" },
+        { "option": "C", "text": "380" },
+        { "option": "D", "text": "360" }
+      ],
+      "answer": "A",
+      "explanation": "Speed = 240/4 = 60 mph. In 7 hours: 60 × 7 = 420 miles."
+    },
+    {
+      "id": 62,
+      "category": "Modeling",
+      "difficulty": "medium",
+      "question": "The height h(t) of a bouncing ball after t seconds is given by h(t) = -16t² + 24t. When does the ball hit the ground?",
+      "choices": [
+        { "option": "A", "text": "0 seconds" },
+        { "option": "B", "text": "1.5 seconds" },
+        { "option": "C", "text": "2 seconds" },
+        { "option": "D", "text": "2.5 seconds" }
+      ],
+      "answer": "B",
+      "explanation": "The ball hits the ground when h(t) = 0. Solve -16t² + 24t = 0; t(24 - 16t) = 0; t = 0 or t = 1.5. Since t = 0 is the start, t = 1.5 is when it hits the ground."
+    },
+    {
+      "id": 63,
+      "category": "Number & Quantity",
+      "difficulty": "medium",
+      "question": "What is the sum of the first 10 positive even numbers?",
+      "choices": [
+        { "option": "A", "text": "90" },
+        { "option": "B", "text": "110" },
+        { "option": "C", "text": "100" },
+        { "option": "D", "text": "120" }
+      ],
+      "answer": "B",
+      "explanation": "The first 10 even numbers are 2, 4, 6, 8, 10, 12, 14, 16, 18, 20. Their sum is 110."
+    },
+    {
+      "id": 64,
+      "category": "Algebra",
+      "difficulty": "hard",
+      "question": "What is the solution to the equation |2x - 6| = 4?",
+      "choices": [
+        { "option": "A", "text": "x = 1 or x = 5" },
+        { "option": "B", "text": "x = 2 or x = 4" },
+        { "option": "C", "text": "x = 3 only" },
+        { "option": "D", "text": "x = 1 only" }
+      ],
+      "answer": "A",
+      "explanation": "Solve |2x - 6| = 4 by considering 2x - 6 = 4 or 2x - 6 = -4. This gives x = 5 or x = 1."
+    },
+    {
+      "id": 65,
+      "category": "Functions",
+      "difficulty": "medium",
+      "question": "What is the domain of f(x) = √(x - 4)?",
+      "choices": [
+        { "option": "A", "text": "x ≥ 4" },
+        { "option": "B", "text": "x > 4" },
+        { "option": "C", "text": "x ≤ 4" },
+        { "option": "D", "text": "all real numbers" }
+      ],
+      "answer": "A",
+      "explanation": "For a square root function, the expression inside must be non-negative. So x - 4 ≥ 0, which means x ≥ 4."
+    },
+    {
+      "id": 66,
+      "category": "Geometry",
+      "difficulty": "medium",
+      "question": "In a circle with radius 6, what is the length of a chord that is 4 units away from the center?",
+      "choices": [
+        { "option": "A", "text": "4√5" },
+        { "option": "B", "text": "8" },
+        { "option": "C", "text": "8√2" },
+        { "option": "D", "text": "6√5" }
+      ],
+      "answer": "B",
+      "explanation": "Using the Pythagorean theorem with radius 6 and height 4, the half-chord length is √(36 - 16) = √20 = 2√5. The full chord is twice this: 8."
+    },
+    {
+      "id": 67,
+      "category": "Statistics & Probability",
+      "difficulty": "hard",
+      "question": "If you roll two fair dice, what is the probability of rolling a sum of 7?",
+      "choices": [
+        { "option": "A", "text": "1/6" },
+        { "option": "B", "text": "1/12" },
+        { "option": "C", "text": "1/4" },
+        { "option": "D", "text": "1/8" }
+      ],
+      "answer": "A",
+      "explanation": "There are 6 ways to roll a 7 (1+6, 2+5, 3+4, 4+3, 5+2, 6+1) out of 36 possible outcomes, so probability is 6/36 = 1/6."
+    },
+    {
+      "id": 68,
+      "category": "Integrating Essential Skills",
+      "difficulty": "medium",
+      "question": "If 3 pencils cost $0.75, how much do 12 pencils cost?",
+      "choices": [
+        { "option": "A", "text": "$2.25" },
+        { "option": "B", "text": "$3.00" },
+        { "option": "C", "text": "$2.50" },
+        { "option": "D", "text": "$3.25" }
+      ],
+      "answer": "B",
+      "explanation": "If 3 pencils cost $0.75, one pencil costs $0.25. Therefore, 12 pencils cost 12 × $0.25 = $3.00."
+    },
+    {
+      "id": 69,
+      "category": "Modeling",
+      "difficulty": "hard",
+      "question": "A population grows according to the function P(t) = 1000(1.1)^t, where t is in years. What is the population after 2 years?",
+      "choices": [
+        { "option": "A", "text": "1210" },
+        { "option": "B", "text": "1100" },
+        { "option": "C", "text": "1331" },
+        { "option": "D", "text": "1200" }
+      ],
+      "answer": "C",
+      "explanation": "Substitute t = 2: P(2) = 1000(1.1)² = 1000(1.21) = 1210."
+    },
+    {
+      "id": 70,
+      "category": "Number & Quantity",
+      "difficulty": "medium",
+      "question": "What is the value of (√3 + 2)(√3 - 2)?",
+      "choices": [
+        { "option": "A", "text": "-1" },
+        { "option": "B", "text": "1" },
+        { "option": "C", "text": "-3" },
+        { "option": "D", "text": "3" }
+      ],
+      "answer": "A",
+      "explanation": "(√3 + 2)(√3 - 2) = 3 - 4 = -1."
+    }
+  ],
+  "english": [
+    [
+      {
+        "id": 1,
+        "category": "Production of Writing",
+        "difficulty": "medium",
+        "question": "Read the passage below:\n\nThe city council meeting was long and tedious. Members discussed the new park proposal. The weather was cloudy that day.\n\nWhich sentence should be removed to improve the passage's unity and focus?",
+        "choices": [
+          {
+            "option": "A",
+            "text": "The city council meeting was long and tedious."
+          },
+          { "option": "B", "text": "Members discussed the new park proposal." },
+          { "option": "C", "text": "The weather was cloudy that day." },
+          { "option": "D", "text": "None of the above" }
+        ],
+        "answer": "C",
+        "explanation": "The sentence about weather is irrelevant to the main topic of the city council meeting and park proposal."
+      },
+      {
+        "id": 2,
+        "category": "Knowledge of Language",
+        "difficulty": "medium",
+        "question": "Choose the most concise way to express the underlined portion:\n\nThe reason why I was late to class was because my car wouldn't start.",
+        "choices": [
+          {
+            "option": "A",
+            "text": "The reason why I was late to class was because"
+          },
+          { "option": "B", "text": "I was late to class because" },
+          {
+            "option": "C",
+            "text": "The reason for my lateness to class was due to"
+          },
+          { "option": "D", "text": "Being late to class was because" }
+        ],
+        "answer": "B",
+        "explanation": "The most concise and clear option eliminates redundant phrases like 'the reason why' and 'was because.'"
+      },
+      {
+        "id": 3,
+        "category": "Conventions of Standard English",
+        "difficulty": "easy",
+        "question": "Select the correct form of the verb:\n\nNeither the students nor the teacher [was/were] prepared for the test.",
+        "choices": [
+          { "option": "A", "text": "was" },
+          { "option": "B", "text": "were" },
+          { "option": "C", "text": "are" },
+          { "option": "D", "text": "is" }
+        ],
+        "answer": "A",
+        "explanation": "When using 'neither/nor,' the verb agrees with the closest subject. Here, 'teacher' is singular, so 'was' is correct."
+      },
+      {
+        "id": 4,
+        "category": "Production of Writing",
+        "difficulty": "hard",
+        "question": "Which transition best connects these two sentences?\n\nThe new library offers free computer access. _____ many residents can now apply for jobs online.",
+        "choices": [
+          { "option": "A", "text": "However," },
+          { "option": "B", "text": "Furthermore," },
+          { "option": "C", "text": "Consequently," },
+          { "option": "D", "text": "Similarly," }
+        ],
+        "answer": "C",
+        "explanation": "The second sentence describes a result of the first sentence, making 'Consequently' the most logical transition."
+      },
+      {
+        "id": 5,
+        "category": "Knowledge of Language",
+        "difficulty": "medium",
+        "question": "Which revision maintains the formal tone of this academic essay?\n\nThe experiment was a total disaster, and everything went wrong.",
+        "choices": [
+          {
+            "option": "A",
+            "text": "The experiment was a complete catastrophe."
+          },
+          {
+            "option": "B",
+            "text": "The experiment yielded unsuccessful results."
+          },
+          { "option": "C", "text": "The experiment was super unsuccessful." },
+          { "option": "D", "text": "The experiment bombed." }
+        ],
+        "answer": "B",
+        "explanation": "The phrase 'yielded unsuccessful results' maintains an appropriate academic and formal tone."
+      },
+      {
+        "id": 6,
+        "category": "Conventions of Standard English",
+        "difficulty": "medium",
+        "question": "Which sentence uses punctuation correctly?",
+        "choices": [
+          {
+            "option": "A",
+            "text": "The museum which opened last year, has three floors."
+          },
+          {
+            "option": "B",
+            "text": "The museum, which opened last year has three floors."
+          },
+          {
+            "option": "C",
+            "text": "The museum, which opened last year, has three floors."
+          },
+          {
+            "option": "D",
+            "text": "The museum which opened last year has three floors."
+          }
+        ],
+        "answer": "C",
+        "explanation": "Non-essential clauses should be set off by commas on both sides."
+      },
+      {
+        "id": 7,
+        "category": "Production of Writing",
+        "difficulty": "hard",
+        "question": "Which placement of the following sentence would best support the main idea of a paragraph about renewable energy?\n\n'Solar panels have become 70% cheaper in the last decade.'",
+        "choices": [
+          { "option": "A", "text": "At the beginning to introduce the topic" },
+          { "option": "B", "text": "After discussing environmental benefits" },
+          { "option": "C", "text": "After discussing economic barriers" },
+          { "option": "D", "text": "At the end as a concluding statement" }
+        ],
+        "answer": "C",
+        "explanation": "The statistic about decreased costs best supports the paragraph after discussing economic barriers to renewable energy adoption."
+      },
+      {
+        "id": 8,
+        "category": "Knowledge of Language",
+        "difficulty": "easy",
+        "question": "Choose the most precise word to complete the sentence:\n\nThe chef _____ the vegetables into uniform pieces.",
+        "choices": [
+          { "option": "A", "text": "cut" },
+          { "option": "B", "text": "chopped" },
+          { "option": "C", "text": "diced" },
+          { "option": "D", "text": "made" }
+        ],
+        "answer": "C",
+        "explanation": "'Diced' is the most precise term for cutting vegetables into uniform, cube-shaped pieces."
+      },
+      {
+        "id": 9,
+        "category": "Conventions of Standard English",
+        "difficulty": "medium",
+        "question": "Identify the correct pronoun usage:\n\nEither John or his brothers ___ going to help with the move.",
+        "choices": [
+          { "option": "A", "text": "is" },
+          { "option": "B", "text": "are" },
+          { "option": "C", "text": "was" },
+          { "option": "D", "text": "were" }
+        ],
+        "answer": "B",
+        "explanation": "When 'either/or' connects singular and plural subjects, the verb agrees with the closest subject. Here, 'brothers' is plural."
+      },
+      {
+        "id": 10,
+        "category": "Production of Writing",
+        "difficulty": "medium",
+        "question": "Which revision best improves the coherence of these sentences?\n\nThe school needs new computers. The basketball team won the championship. The computers are ten years old.",
+        "choices": [
+          {
+            "option": "A",
+            "text": "The school needs new computers. The computers are ten years old. The basketball team won the championship."
+          },
+          {
+            "option": "B",
+            "text": "The basketball team won the championship. The school needs new computers. The computers are ten years old."
+          },
+          {
+            "option": "C",
+            "text": "The computers are ten years old. The basketball team won the championship. The school needs new computers."
+          },
+          { "option": "D", "text": "No revision needed" }
+        ],
+        "answer": "A",
+        "explanation": "Placing related sentences about computers together improves the passage's coherence."
+      },
+      {
+        "id": 11,
+        "category": "Knowledge of Language",
+        "difficulty": "hard",
+        "question": "Which revision best maintains consistency in tone and style?",
+        "choices": [
+          {
+            "option": "A",
+            "text": "The professor elucidated the complex theory, and then she was like, 'Does everyone get it?'"
+          },
+          {
+            "option": "B",
+            "text": "The professor explained the complex theory and then asked if everyone understood."
+          },
+          {
+            "option": "C",
+            "text": "The professor was explaining the complex theory and then inquired about comprehension."
+          },
+          {
+            "option": "D",
+            "text": "The professor broke down the complex theory and then checked if we were picking it up."
+          }
+        ],
+        "answer": "B",
+        "explanation": "This option maintains a consistent formal tone throughout the sentence without mixing casual and formal language."
+      },
+      {
+        "id": 12,
+        "category": "Conventions of Standard English",
+        "difficulty": "medium",
+        "question": "Which sentence demonstrates correct subject-verb agreement?",
+        "choices": [
+          {
+            "option": "A",
+            "text": "The group of students were studying for their exam."
+          },
+          {
+            "option": "B",
+            "text": "The group of students was studying for their exam."
+          },
+          {
+            "option": "C",
+            "text": "The group of students were studying for its exam."
+          },
+          {
+            "option": "D",
+            "text": "The group of students is studying for their exams."
+          }
+        ],
+        "answer": "B",
+        "explanation": "'Group' is a collective noun and takes a singular verb, though the pronoun can be plural to match the individuals in the group."
+      },
+      {
+        "id": 13,
+        "category": "Production of Writing",
+        "difficulty": "hard",
+        "question": "Which concluding sentence best achieves the purpose of a persuasive essay about reducing plastic waste?",
+        "choices": [
+          {
+            "option": "A",
+            "text": "Plastic waste is a serious problem in our oceans."
+          },
+          {
+            "option": "B",
+            "text": "Therefore, we must act now to reduce our plastic consumption before it's too late."
+          },
+          {
+            "option": "C",
+            "text": "In conclusion, plastic is used in many products."
+          },
+          { "option": "D", "text": "The end." }
+        ],
+        "answer": "B",
+        "explanation": "This conclusion reinforces the persuasive purpose by calling for action and emphasizing urgency."
+      },
+      {
+        "id": 14,
+        "category": "Knowledge of Language",
+        "difficulty": "medium",
+        "question": "Choose the most effective word to maintain the professional tone:\n\nThe company's new policy _____ employee tardiness.",
+        "choices": [
+          { "option": "A", "text": "cracks down on" },
+          { "option": "B", "text": "addresses" },
+          { "option": "C", "text": "deals with" },
+          { "option": "D", "text": "tackles" }
+        ],
+        "answer": "B",
+        "explanation": "'Addresses' maintains a professional tone while clearly conveying the meaning."
+      },
+      {
+        "id": 15,
+        "category": "Conventions of Standard English",
+        "difficulty": "easy",
+        "question": "Which sentence uses apostrophes correctly?",
+        "choices": [
+          { "option": "A", "text": "The dogs' bowl's were empty." },
+          { "option": "B", "text": "The dogs bowls' were empty." },
+          { "option": "C", "text": "The dogs' bowls were empty." },
+          { "option": "D", "text": "The dog's bowl's were empty." }
+        ],
+        "answer": "C",
+        "explanation": "The apostrophe after 'dogs' shows plural possession, and no apostrophe is needed for the plural 'bowls.'"
+      },
+      {
+        "id": 16,
+        "category": "Production of Writing",
+        "difficulty": "medium",
+        "question": "Which revision best combines these sentences to improve cohesion?\nThe library was built in 1920. It is a beautiful building. It needs renovation.",
+        "choices": [
+          {
+            "option": "A",
+            "text": "Built in 1920, the beautiful library needs renovation."
+          },
+          {
+            "option": "B",
+            "text": "The library was built in 1920 and it is beautiful and needs renovation."
+          },
+          {
+            "option": "C",
+            "text": "The library, which was built in 1920, is a beautiful building that needs renovation."
+          },
+          {
+            "option": "D",
+            "text": "The library needs renovation, it was built in 1920, and it is beautiful."
+          }
+        ],
+        "answer": "C",
+        "explanation": "This version combines the sentences smoothly while maintaining clear relationships between ideas."
+      },
+      {
+        "id": 17,
+        "category": "Knowledge of Language",
+        "difficulty": "medium",
+        "question": "Choose the most precise and concise revision:\nThe meeting, which was long and took up a lot of time, finally came to an end.",
+        "choices": [
+          { "option": "A", "text": "The lengthy meeting finally ended." },
+          {
+            "option": "B",
+            "text": "The meeting, which was very long, finally ended."
+          },
+          {
+            "option": "C",
+            "text": "The meeting that took a long time finally ended."
+          },
+          {
+            "option": "D",
+            "text": "The meeting finally ended after being long."
+          }
+        ],
+        "answer": "A",
+        "explanation": "'The lengthy meeting finally ended' eliminates redundancy while maintaining meaning."
+      },
+      {
+        "id": 18,
+        "category": "Conventions of Standard English",
+        "difficulty": "hard",
+        "question": "Which sentence demonstrates correct comma usage with introductory elements?",
+        "choices": [
+          {
+            "option": "A",
+            "text": "After the storm the streets were flooded."
+          },
+          {
+            "option": "B",
+            "text": "After the storm, the streets were flooded."
+          },
+          {
+            "option": "C",
+            "text": "After, the storm the streets were flooded."
+          },
+          {
+            "option": "D",
+            "text": "After the storm, the streets, were flooded."
+          }
+        ],
+        "answer": "B",
+        "explanation": "A comma should follow an introductory phrase like 'After the storm.'"
+      },
+      {
+        "id": 19,
+        "category": "Production of Writing",
+        "difficulty": "medium",
+        "question": "Which transition best connects these ideas?\nThe restaurant's prices were high. _____ the food quality was exceptional.",
+        "choices": [
+          { "option": "A", "text": "Therefore," },
+          { "option": "B", "text": "However," },
+          { "option": "C", "text": "Similarly," },
+          { "option": "D", "text": "Furthermore," }
+        ],
+        "answer": "B",
+        "explanation": "'However' shows contrast between the high prices and the good food quality."
+      },
+      {
+        "id": 20,
+        "category": "Knowledge of Language",
+        "difficulty": "easy",
+        "question": "Which revision best maintains formal style?",
+        "choices": [
+          { "option": "A", "text": "The data was kind of important." },
+          { "option": "B", "text": "The data was really important." },
+          { "option": "C", "text": "The data was significant." },
+          { "option": "D", "text": "The data was pretty important." }
+        ],
+        "answer": "C",
+        "explanation": "'Significant' maintains formal style and precise meaning."
+      },
+      {
+        "id": 21,
+        "category": "Conventions of Standard English",
+        "difficulty": "medium",
+        "question": "Which sentence uses who/whom correctly?",
+        "choices": [
+          { "option": "A", "text": "Who did you give the book to?" },
+          { "option": "B", "text": "Whom did you give the book to?" },
+          { "option": "C", "text": "Who gave you the book?" },
+          { "option": "D", "text": "Whom gave you the book?" }
+        ],
+        "answer": "C",
+        "explanation": "'Who' is correct as the subject of the sentence; 'whom' is used for objects."
+      },
+      {
+        "id": 22,
+        "category": "Production of Writing",
+        "difficulty": "hard",
+        "question": "Which placement of the following sentence would best support a paragraph about climate change?\n'Global temperatures have risen by 1.5°C since 1880.'",
+        "choices": [
+          { "option": "A", "text": "After discussing potential solutions" },
+          { "option": "B", "text": "As an introduction to the topic" },
+          { "option": "C", "text": "After discussing causes" },
+          { "option": "D", "text": "At the very end" }
+        ],
+        "answer": "B",
+        "explanation": "This statistical evidence works best as an introduction to establish the reality of climate change."
+      },
+      {
+        "id": 23,
+        "category": "Knowledge of Language",
+        "difficulty": "medium",
+        "question": "Choose the most appropriate word for an academic essay:\nThe scientist _____ the results of the experiment.",
+        "choices": [
+          { "option": "A", "text": "looked at" },
+          { "option": "B", "text": "analyzed" },
+          { "option": "C", "text": "checked out" },
+          { "option": "D", "text": "went over" }
+        ],
+        "answer": "B",
+        "explanation": "'Analyzed' is appropriately formal and precise for academic writing."
+      },
+      {
+        "id": 24,
+        "category": "Conventions of Standard English",
+        "difficulty": "hard",
+        "question": "Which sentence demonstrates correct parallel structure?",
+        "choices": [
+          {
+            "option": "A",
+            "text": "She enjoys swimming, to run, and bike riding."
+          },
+          {
+            "option": "B",
+            "text": "She enjoys swimming, running, and biking."
+          },
+          {
+            "option": "C",
+            "text": "She enjoys to swim, running, and to bike."
+          },
+          { "option": "D", "text": "She enjoys swimming, runs, and biking." }
+        ],
+        "answer": "B",
+        "explanation": "All items in the series use the -ing form, maintaining parallel structure."
+      },
+      {
+        "id": 25,
+        "category": "Production of Writing",
+        "difficulty": "medium",
+        "question": "Which sentence is irrelevant to a paragraph about solar energy adoption?",
+        "choices": [
+          {
+            "option": "A",
+            "text": "Solar panel costs have decreased significantly."
+          },
+          {
+            "option": "B",
+            "text": "Installation requires professional expertise."
+          },
+          {
+            "option": "C",
+            "text": "Many homeowners prefer granite countertops."
+          },
+          {
+            "option": "D",
+            "text": "Government incentives encourage solar installation."
+          }
+        ],
+        "answer": "C",
+        "explanation": "The sentence about granite countertops is unrelated to the topic of solar energy adoption."
+      },
+      {
+        "id": 26,
+        "category": "Production of Writing",
+        "difficulty": "medium",
+        "question": "Which sentence best introduces a paragraph about the impact of social media on mental health?",
+        "choices": [
+          {
+            "option": "A",
+            "text": "Social media was invented in the early 2000s."
+          },
+          { "option": "B", "text": "The weather affects people's moods." },
+          {
+            "option": "C",
+            "text": "Recent studies suggest a strong correlation between social media use and increased anxiety levels among teenagers."
+          },
+          {
+            "option": "D",
+            "text": "Teenagers spend time on many different activities."
+          }
+        ],
+        "answer": "C",
+        "explanation": "This sentence clearly introduces the topic and suggests the paragraph's focus on the relationship between social media and mental health."
+      },
+      {
+        "id": 27,
+        "category": "Conventions of Standard English",
+        "difficulty": "hard",
+        "question": "Which sentence uses punctuation correctly?",
+        "choices": [
+          {
+            "option": "A",
+            "text": "The scientist whose research was groundbreaking presented her findings."
+          },
+          {
+            "option": "B",
+            "text": "The scientist, whose research was groundbreaking presented her findings."
+          },
+          {
+            "option": "C",
+            "text": "The scientist whose research was groundbreaking, presented her findings."
+          },
+          {
+            "option": "D",
+            "text": "The scientist, whose research was groundbreaking,, presented her findings."
+          }
+        ],
+        "answer": "A",
+        "explanation": "No commas are needed because the clause 'whose research was groundbreaking' is essential to identifying which scientist is being discussed."
+      },
+      {
+        "id": 28,
+        "category": "Knowledge of Language",
+        "difficulty": "medium",
+        "question": "Which revision best maintains the formal tone of this academic paper?\n\nThe experiment bombed because we messed up the measurements.",
+        "choices": [
+          {
+            "option": "A",
+            "text": "The experiment failed due to measurement errors."
+          },
+          {
+            "option": "B",
+            "text": "We totally messed up the experiment's measurements."
+          },
+          {
+            "option": "C",
+            "text": "The experiment didn't work because we got the measurements wrong."
+          },
+          {
+            "option": "D",
+            "text": "The experiment was a disaster because of bad measurements."
+          }
+        ],
+        "answer": "A",
+        "explanation": "This version maintains formal academic tone while clearly conveying the same information."
+      },
+      {
+        "id": 29,
+        "category": "Production of Writing",
+        "difficulty": "hard",
+        "question": "Which transition best connects these sentences?\n\nThe city implemented new recycling programs. _____ waste reduction improved by 40% over six months.",
+        "choices": [
+          { "option": "A", "text": "Otherwise," },
+          { "option": "B", "text": "Nevertheless," },
+          { "option": "C", "text": "In contrast," },
+          { "option": "D", "text": "Subsequently," }
+        ],
+        "answer": "D",
+        "explanation": "'Subsequently' best shows the cause-and-effect relationship between the implementation of recycling programs and the resulting improvement."
+      },
+      {
+        "id": 30,
+        "category": "Conventions of Standard English",
+        "difficulty": "medium",
+        "question": "Which sentence demonstrates correct subject-verb agreement with collective nouns?",
+        "choices": [
+          {
+            "option": "A",
+            "text": "The committee disagree about the proposal."
+          },
+          {
+            "option": "B",
+            "text": "The committee disagrees about the proposal."
+          },
+          {
+            "option": "C",
+            "text": "The committee are disagreeing about the proposal."
+          },
+          {
+            "option": "D",
+            "text": "The committee have disagreed about the proposal."
+          }
+        ],
+        "answer": "B",
+        "explanation": "In American English, collective nouns like 'committee' take singular verbs."
+      },
+      {
+        "id": 31,
+        "category": "Knowledge of Language",
+        "difficulty": "easy",
+        "question": "Choose the most precise word for the context:\n\nThe chef _____ the onions before adding them to the soup.",
+        "choices": [
+          { "option": "A", "text": "cut" },
+          { "option": "B", "text": "minced" },
+          { "option": "C", "text": "broke" },
+          { "option": "D", "text": "separated" }
+        ],
+        "answer": "B",
+        "explanation": "'Minced' is the most precise term for cutting onions into very fine pieces."
+      },
+      {
+        "id": 32,
+        "category": "Production of Writing",
+        "difficulty": "medium",
+        "question": "Which sentence is irrelevant to a paragraph about ocean conservation?",
+        "choices": [
+          {
+            "option": "A",
+            "text": "Marine debris affects countless sea creatures."
+          },
+          {
+            "option": "B",
+            "text": "Coral reefs are dying at an alarming rate."
+          },
+          {
+            "option": "C",
+            "text": "Mountain climbing requires specialized equipment."
+          },
+          { "option": "D", "text": "Overfishing threatens marine ecosystems." }
+        ],
+        "answer": "C",
+        "explanation": "The sentence about mountain climbing equipment is unrelated to the topic of ocean conservation."
+      },
+      {
+        "id": 33,
+        "category": "Knowledge of Language",
+        "difficulty": "medium",
+        "question": "Which revision best maintains parallel structure?",
+        "choices": [
+          {
+            "option": "A",
+            "text": "The job requires excellent communication skills, attention to detail, and you must be organized."
+          },
+          {
+            "option": "B",
+            "text": "The job requires excellent communication skills, attention to detail, and organizational abilities."
+          },
+          {
+            "option": "C",
+            "text": "The job requires excellent communication skills, to pay attention to detail, and being organized."
+          },
+          {
+            "option": "D",
+            "text": "The job requires excellent communication skills, detailed attention, and you should be organized."
+          }
+        ],
+        "answer": "B",
+        "explanation": "This version maintains parallel structure by listing three noun phrases."
+      },
+      {
+        "id": 34,
+        "category": "Conventions of Standard English",
+        "difficulty": "hard",
+        "question": "Which sentence uses semicolons correctly?",
+        "choices": [
+          {
+            "option": "A",
+            "text": "The meeting was productive; however it ran long; and we had to schedule a follow-up."
+          },
+          {
+            "option": "B",
+            "text": "The meeting was productive; however, it ran long; we had to schedule a follow-up."
+          },
+          {
+            "option": "C",
+            "text": "The meeting was productive however; it ran long; and we had to schedule a follow-up."
+          },
+          {
+            "option": "D",
+            "text": "The meeting was productive; however we had to schedule; a follow-up."
+          }
+        ],
+        "answer": "B",
+        "explanation": "Semicolons correctly separate independent clauses, with proper punctuation after the transitional expression 'however.'"
+      },
+      {
+        "id": 35,
+        "category": "Production of Writing",
+        "difficulty": "hard",
+        "question": "Which concluding sentence best ends a paragraph about the benefits of exercise?",
+        "choices": [
+          { "option": "A", "text": "Exercise is something people do." },
+          {
+            "option": "B",
+            "text": "Exercise can be done indoors or outdoors."
+          },
+          {
+            "option": "C",
+            "text": "Therefore, regular exercise is crucial for maintaining both physical and mental well-being."
+          },
+          { "option": "D", "text": "Exercise requires proper equipment." }
+        ],
+        "answer": "C",
+        "explanation": "This conclusion effectively summarizes the main points about exercise's benefits and provides closure."
+      },
+      {
+        "id": 36,
+        "category": "Knowledge of Language",
+        "difficulty": "medium",
+        "question": "Which revision eliminates redundancy?",
+        "choices": [
+          {
+            "option": "A",
+            "text": "The basic fundamentals of the concept are quite essential."
+          },
+          {
+            "option": "B",
+            "text": "The fundamentals of the concept are essential."
+          },
+          {
+            "option": "C",
+            "text": "The basic fundamentals are quite essential."
+          },
+          {
+            "option": "D",
+            "text": "The fundamentals are quite essential fundamentally."
+          }
+        ],
+        "answer": "B",
+        "explanation": "This version removes redundant words while maintaining the same meaning."
+      },
+      {
+        "id": 37,
+        "category": "Conventions of Standard English",
+        "difficulty": "medium",
+        "question": "Which sentence uses apostrophes correctly?",
+        "choices": [
+          {
+            "option": "A",
+            "text": "The childrens' toys were scattered across the rooms' floor."
+          },
+          {
+            "option": "B",
+            "text": "The children's toys were scattered across the room's floor."
+          },
+          {
+            "option": "C",
+            "text": "The childrens toys were scattered across the rooms floor."
+          },
+          {
+            "option": "D",
+            "text": "The children toys were scattered across the room's floor."
+          }
+        ],
+        "answer": "B",
+        "explanation": "'Children's' shows possession for an irregular plural, and 'room's' shows singular possession."
+      },
+      {
+        "id": 38,
+        "category": "Production of Writing",
+        "difficulty": "medium",
+        "question": "Which revision best combines these sentences?\n\nThe restaurant opened last year. It serves Italian food. It is very popular.",
+        "choices": [
+          {
+            "option": "A",
+            "text": "The restaurant opened last year, and it serves Italian food, and it is very popular."
+          },
+          {
+            "option": "B",
+            "text": "The restaurant that opened last year serves Italian food and is very popular."
+          },
+          {
+            "option": "C",
+            "text": "The restaurant opened last year, serving Italian food, being very popular."
+          },
+          {
+            "option": "D",
+            "text": "Opening last year, the restaurant, serving Italian food, it is very popular."
+          }
+        ],
+        "answer": "B",
+        "explanation": "This version combines the sentences clearly and concisely while maintaining logical relationships."
+      },
+      {
+        "id": 39,
+        "category": "Knowledge of Language",
+        "difficulty": "hard",
+        "question": "Which revision best maintains consistent tone?",
+        "choices": [
+          {
+            "option": "A",
+            "text": "The research paper presented compelling evidence, and it was totally awesome."
+          },
+          {
+            "option": "B",
+            "text": "The research paper presented compelling evidence and drew significant conclusions."
+          },
+          {
+            "option": "C",
+            "text": "The research paper presented compelling evidence and was super interesting."
+          },
+          {
+            "option": "D",
+            "text": "The research paper presented compelling evidence and like, made great points."
+          }
+        ],
+        "answer": "B",
+        "explanation": "This version maintains a consistent formal academic tone throughout."
+      },
+      {
+        "id": 40,
+        "category": "Conventions of Standard English",
+        "difficulty": "medium",
+        "question": "Which sentence demonstrates correct pronoun usage?",
+        "choices": [
+          {
+            "option": "A",
+            "text": "Between you and I, the project was successful."
+          },
+          {
+            "option": "B",
+            "text": "Between you and me, the project was successful."
+          },
+          {
+            "option": "C",
+            "text": "Between we and them, the project was successful."
+          },
+          {
+            "option": "D",
+            "text": "Between they and I, the project was successful."
+          }
+        ],
+        "answer": "B",
+        "explanation": "The preposition 'between' requires objective pronouns, making 'you and me' correct."
+      },
+      {
+        "id": 41,
+        "category": "Production of Writing",
+        "difficulty": "hard",
+        "question": "In a paragraph about renewable energy sources, which sentence does NOT support the main topic?",
+        "choices": [
+          {
+            "option": "A",
+            "text": "Solar panels have become increasingly efficient."
+          },
+          {
+            "option": "B",
+            "text": "Wind turbines can generate substantial power."
+          },
+          {
+            "option": "C",
+            "text": "The local diner serves excellent pancakes."
+          },
+          {
+            "option": "D",
+            "text": "Hydroelectric dams provide consistent energy."
+          }
+        ],
+        "answer": "C",
+        "explanation": "The sentence about pancakes is irrelevant to the topic of renewable energy sources."
+      },
+      {
+        "id": 42,
+        "category": "Conventions of Standard English",
+        "difficulty": "medium",
+        "question": "Which sentence uses colons correctly?",
+        "choices": [
+          {
+            "option": "A",
+            "text": "The presentation covered three topics: renewable energy, conservation, and recycling."
+          },
+          {
+            "option": "B",
+            "text": "The presentation covered: renewable energy, conservation, and recycling."
+          },
+          {
+            "option": "C",
+            "text": "The presentation: covered renewable energy, conservation, and recycling."
+          },
+          {
+            "option": "D",
+            "text": "The presentation covered three topics including: renewable energy, conservation, and recycling."
+          }
+        ],
+        "answer": "A",
+        "explanation": "A colon should follow a complete independent clause and introduce a list."
+      },
+      {
+        "id": 43,
+        "category": "Knowledge of Language",
+        "difficulty": "medium",
+        "question": "Which revision best maintains formal academic style?",
+        "choices": [
+          {
+            "option": "A",
+            "text": "The research findings were super important."
+          },
+          { "option": "B", "text": "The research findings were significant." },
+          { "option": "C", "text": "The research findings were pretty good." },
+          { "option": "D", "text": "The research findings were kind of great." }
+        ],
+        "answer": "B",
+        "explanation": "'Significant' maintains appropriate formal academic tone while conveying importance."
+      },
+      {
+        "id": 44,
+        "category": "Production of Writing",
+        "difficulty": "medium",
+        "question": "Which transition best connects these sentences?\nThe city implemented strict water conservation measures. _____ water usage decreased by 30%.",
+        "choices": [
+          { "option": "A", "text": "However," },
+          { "option": "B", "text": "Similarly," },
+          { "option": "C", "text": "As a result," },
+          { "option": "D", "text": "In contrast," }
+        ],
+        "answer": "C",
+        "explanation": "'As a result' best shows the cause-effect relationship between the conservation measures and decreased water usage."
+      },
+      {
+        "id": 45,
+        "category": "Conventions of Standard English",
+        "difficulty": "hard",
+        "question": "Which sentence demonstrates correct use of verb tense?",
+        "choices": [
+          {
+            "option": "A",
+            "text": "By the time the bus arrives, we had waited for an hour."
+          },
+          {
+            "option": "B",
+            "text": "By the time the bus arrived, we have waited for an hour."
+          },
+          {
+            "option": "C",
+            "text": "By the time the bus arrived, we had waited for an hour."
+          },
+          {
+            "option": "D",
+            "text": "By the time the bus arrives, we have waited for an hour."
+          }
+        ],
+        "answer": "C",
+        "explanation": "The past perfect tense 'had waited' correctly shows an action completed before another past action."
+      },
+      {
+        "id": 46,
+        "category": "Knowledge of Language",
+        "difficulty": "hard",
+        "question": "Which revision best eliminates wordiness?",
+        "choices": [
+          {
+            "option": "A",
+            "text": "The reason for the delay was due to the fact that there was inclement weather."
+          },
+          {
+            "option": "B",
+            "text": "The delay was because of the fact that there was inclement weather."
+          },
+          {
+            "option": "C",
+            "text": "The reason why there was a delay was inclement weather."
+          },
+          {
+            "option": "D",
+            "text": "The delay was caused by inclement weather."
+          }
+        ],
+        "answer": "D",
+        "explanation": "This version eliminates unnecessary phrases while maintaining clear meaning."
+      },
+      {
+        "id": 47,
+        "category": "Production of Writing",
+        "difficulty": "medium",
+        "question": "Which sentence best concludes a paragraph about the benefits of regular exercise?",
+        "choices": [
+          {
+            "option": "A",
+            "text": "Exercise requires proper equipment and clothing."
+          },
+          {
+            "option": "B",
+            "text": "Many people enjoy different types of exercise."
+          },
+          {
+            "option": "C",
+            "text": "The weather can affect exercise routines."
+          },
+          {
+            "option": "D",
+            "text": "Therefore, maintaining a regular exercise routine is essential for overall health and well-being."
+          }
+        ],
+        "answer": "D",
+        "explanation": "This conclusion effectively summarizes the main idea about exercise benefits."
+      },
+      {
+        "id": 48,
+        "category": "Conventions of Standard English",
+        "difficulty": "medium",
+        "question": "Which sentence demonstrates correct subject-verb agreement?",
+        "choices": [
+          { "option": "A", "text": "The stack of books were falling over." },
+          { "option": "B", "text": "The stack of books was falling over." },
+          {
+            "option": "C",
+            "text": "The stack with the books were falling over."
+          },
+          { "option": "D", "text": "The stack and the books was falling over." }
+        ],
+        "answer": "B",
+        "explanation": "The singular subject 'stack' requires the singular verb 'was.'"
+      },
+      {
+        "id": 49,
+        "category": "Knowledge of Language",
+        "difficulty": "medium",
+        "question": "Choose the most precise word for the context:\nThe scientist _____ the data before drawing conclusions.",
+        "choices": [
+          { "option": "A", "text": "looked at" },
+          { "option": "B", "text": "went through" },
+          { "option": "C", "text": "analyzed" },
+          { "option": "D", "text": "checked" }
+        ],
+        "answer": "C",
+        "explanation": "'Analyzed' is the most precise and appropriate term for scientific examination of data."
+      },
+      {
+        "id": 50,
+        "category": "Production of Writing",
+        "difficulty": "hard",
+        "question": "Which sentence placement would most improve the organization of a paragraph about climate change solutions?",
+        "choices": [
+          {
+            "option": "A",
+            "text": "Place the sentence about renewable energy costs at the end"
+          },
+          {
+            "option": "B",
+            "text": "Place the sentence about renewable energy costs after discussing economic barriers"
+          },
+          {
+            "option": "C",
+            "text": "Place the sentence about renewable energy costs at the beginning"
+          },
+          {
+            "option": "D",
+            "text": "Place the sentence about renewable energy costs in the middle"
+          }
+        ],
+        "answer": "B",
+        "explanation": "Placing the sentence after discussing economic barriers provides a logical flow and direct connection to the previous content."
+      },
+      {
+        "id": 51,
+        "category": "Production of Writing",
+        "difficulty": "medium",
+        "question": "Which revision best improves the unity and cohesion of the paragraph?\n\nThe school library needs new computers. The basketball team won state finals. The computers are over ten years old and run slowly.",
+        "choices": [
+          { "option": "A", "text": "Leave the paragraph as is" },
+          {
+            "option": "B",
+            "text": "Remove the sentence about the basketball team"
+          },
+          {
+            "option": "C",
+            "text": "Move the basketball sentence to the beginning"
+          },
+          { "option": "D", "text": "Add more details about basketball" }
+        ],
+        "answer": "B",
+        "explanation": "The sentence about the basketball team disrupts the paragraph's focus on the library's computer needs."
+      },
+      {
+        "id": 52,
+        "category": "Knowledge of Language",
+        "difficulty": "hard",
+        "question": "Which revision maintains the most consistent and appropriate tone for an academic essay?\n\nThe experiment yielded significant results. The data was super interesting, and our findings were totally groundbreaking.",
+        "choices": [
+          {
+            "option": "A",
+            "text": "The experiment yielded significant results, producing intriguing data and groundbreaking findings."
+          },
+          {
+            "option": "B",
+            "text": "The experiment was cool and gave us awesome results that were really important."
+          },
+          {
+            "option": "C",
+            "text": "The experiment worked great and showed some pretty neat stuff."
+          },
+          {
+            "option": "D",
+            "text": "The experiment gave us results that were totally amazing and super significant."
+          }
+        ],
+        "answer": "A",
+        "explanation": "This version maintains a formal, academic tone throughout the sentence."
+      },
+      {
+        "id": 53,
+        "category": "Conventions of Standard English",
+        "difficulty": "medium",
+        "question": "Which sentence demonstrates correct usage of semicolons and conjunctive adverbs?",
+        "choices": [
+          {
+            "option": "A",
+            "text": "The meeting ran late, however, we covered all topics."
+          },
+          {
+            "option": "B",
+            "text": "The meeting ran late; however we covered all topics."
+          },
+          {
+            "option": "C",
+            "text": "The meeting ran late; however, we covered all topics."
+          },
+          {
+            "option": "D",
+            "text": "The meeting ran late however, we covered all topics."
+          }
+        ],
+        "answer": "C",
+        "explanation": "A semicolon and comma correctly separate two independent clauses joined by the conjunctive adverb 'however.'"
+      },
+      {
+        "id": 54,
+        "category": "Production of Writing",
+        "difficulty": "medium",
+        "question": "Which transition best connects these sentences?\n\nThe city's recycling program was expensive to implement. _____ it has saved millions in landfill costs.",
+        "choices": [
+          { "option": "A", "text": "Similarly," },
+          { "option": "B", "text": "Therefore," },
+          { "option": "C", "text": "Nevertheless," },
+          { "option": "D", "text": "Furthermore," }
+        ],
+        "answer": "C",
+        "explanation": "'Nevertheless' best shows the contrast between the program's cost and its financial benefits."
+      },
+      {
+        "id": 55,
+        "category": "Knowledge of Language",
+        "difficulty": "medium",
+        "question": "Which revision eliminates wordiness while maintaining the original meaning?\n\nDue to the fact that there was inclement weather occurring, the event was postponed until a later date.",
+        "choices": [
+          {
+            "option": "A",
+            "text": "Due to inclement weather, the event was postponed."
+          },
+          {
+            "option": "B",
+            "text": "Because of the fact that there was bad weather, they postponed the event."
+          },
+          {
+            "option": "C",
+            "text": "The event was postponed because there was inclement weather happening."
+          },
+          {
+            "option": "D",
+            "text": "They postponed the event due to the fact of bad weather."
+          }
+        ],
+        "answer": "A",
+        "explanation": "This version removes unnecessary words while preserving the essential meaning."
+      },
+      {
+        "id": 56,
+        "category": "Conventions of Standard English",
+        "difficulty": "hard",
+        "question": "Which sentence demonstrates correct pronoun-antecedent agreement?",
+        "choices": [
+          {
+            "option": "A",
+            "text": "Each student must submit their paper by Friday."
+          },
+          {
+            "option": "B",
+            "text": "Each student must submit his or her paper by Friday."
+          },
+          {
+            "option": "C",
+            "text": "Each student must submit they're paper by Friday."
+          },
+          {
+            "option": "D",
+            "text": "Each student must submit his paper by Friday."
+          }
+        ],
+        "answer": "B",
+        "explanation": "The singular antecedent 'each student' requires singular pronouns 'his or her.'"
+      },
+      {
+        "id": 57,
+        "category": "Production of Writing",
+        "difficulty": "hard",
+        "question": "Which sentence best concludes a paragraph about the environmental impact of plastic waste?",
+        "choices": [
+          { "option": "A", "text": "Plastic is used in many products." },
+          {
+            "option": "B",
+            "text": "Therefore, immediate action is necessary to reduce plastic consumption and protect our ecosystems."
+          },
+          { "option": "C", "text": "Many animals live in the ocean." },
+          { "option": "D", "text": "Plastic comes in many colors." }
+        ],
+        "answer": "B",
+        "explanation": "This conclusion effectively summarizes the main idea and calls for action regarding plastic waste."
+      },
+      {
+        "id": 58,
+        "category": "Knowledge of Language",
+        "difficulty": "medium",
+        "question": "Choose the most precise and appropriate word for an academic essay:\n\nThe researcher _____ the data to identify patterns.",
+        "choices": [
+          { "option": "A", "text": "looked at" },
+          { "option": "B", "text": "went through" },
+          { "option": "C", "text": "analyzed" },
+          { "option": "D", "text": "checked out" }
+        ],
+        "answer": "C",
+        "explanation": "'Analyzed' is the most precise and appropriate term for scientific examination of data."
+      },
+      {
+        "id": 59,
+        "category": "Conventions of Standard English",
+        "difficulty": "medium",
+        "question": "Which sentence uses commas correctly with nonessential clauses?",
+        "choices": [
+          {
+            "option": "A",
+            "text": "My brother who lives in Seattle, is visiting next week."
+          },
+          {
+            "option": "B",
+            "text": "My brother, who lives in Seattle is visiting next week."
+          },
+          {
+            "option": "C",
+            "text": "My brother, who lives in Seattle, is visiting next week."
+          },
+          {
+            "option": "D",
+            "text": "My brother who lives in Seattle is visiting next week."
+          }
+        ],
+        "answer": "C",
+        "explanation": "Nonessential clauses should be set off by commas on both sides."
+      },
+      {
+        "id": 60,
+        "category": "Production of Writing",
+        "difficulty": "medium",
+        "question": "Which revision best combines these sentences to improve coherence?\n\nThe museum opened last year. It features modern art. It attracts many visitors.",
+        "choices": [
+          {
+            "option": "A",
+            "text": "The museum opened last year and features modern art and attracts many visitors."
+          },
+          {
+            "option": "B",
+            "text": "The museum, which opened last year, features modern art and attracts many visitors."
+          },
+          {
+            "option": "C",
+            "text": "The museum opened last year, featuring modern art, attracting many visitors."
+          },
+          {
+            "option": "D",
+            "text": "Opening last year, the museum, featuring modern art, it attracts many visitors."
+          }
+        ],
+        "answer": "B",
+        "explanation": "This version combines the sentences clearly and effectively while maintaining proper grammar and logical relationships."
+      },
+      {
+        "id": 61,
+        "category": "Production of Writing",
+        "difficulty": "medium",
+        "question": "Which sentence best introduces a paragraph about the effects of social media on student productivity?",
+        "choices": [
+          { "option": "A", "text": "Students use many different apps." },
+          { "option": "B", "text": "The internet was invented in the 1990s." },
+          {
+            "option": "C",
+            "text": "Students spend time on various activities."
+          },
+          {
+            "option": "D",
+            "text": "Recent studies indicate that excessive social media use significantly reduces students' study time and academic performance."
+          }
+        ],
+        "answer": "D",
+        "explanation": "This sentence clearly introduces the topic and suggests the paragraph's focus on social media's impact on student productivity."
+      },
+      {
+        "id": 62,
+        "category": "Conventions of Standard English",
+        "difficulty": "hard",
+        "question": "Which sentence demonstrates correct use of modifiers?",
+        "choices": [
+          {
+            "option": "A",
+            "text": "Walking quickly, the bus was caught by John."
+          },
+          { "option": "B", "text": "John caught the bus, walking quickly." },
+          { "option": "C", "text": "Walking quickly, John caught the bus." },
+          {
+            "option": "D",
+            "text": "The bus was caught by John, walking quickly."
+          }
+        ],
+        "answer": "C",
+        "explanation": "The modifier 'walking quickly' correctly refers to John, who is performing the action."
+      },
+      {
+        "id": 63,
+        "category": "Knowledge of Language",
+        "difficulty": "medium",
+        "question": "Which revision best maintains formal academic style?",
+        "choices": [
+          {
+            "option": "A",
+            "text": "The study's findings were totally unexpected."
+          },
+          {
+            "option": "B",
+            "text": "The study's findings were pretty surprising."
+          },
+          { "option": "C", "text": "The study's findings were unexpected." },
+          {
+            "option": "D",
+            "text": "The study's findings were kind of shocking."
+          }
+        ],
+        "answer": "C",
+        "explanation": "This version maintains formal academic tone without casual language."
+      },
+      {
+        "id": 64,
+        "category": "Production of Writing",
+        "difficulty": "hard",
+        "question": "Which sentence best concludes a paragraph about renewable energy adoption?",
+        "choices": [
+          { "option": "A", "text": "Solar panels are made of silicon." },
+          { "option": "B", "text": "Energy comes from many sources." },
+          {
+            "option": "C",
+            "text": "Therefore, transitioning to renewable energy sources is crucial for environmental sustainability and economic growth."
+          },
+          { "option": "D", "text": "The sun provides light during the day." }
+        ],
+        "answer": "C",
+        "explanation": "This conclusion effectively summarizes the main points about renewable energy adoption and its importance."
+      },
+      {
+        "id": 65,
+        "category": "Conventions of Standard English",
+        "difficulty": "medium",
+        "question": "Which sentence uses parallel structure correctly?",
+        "choices": [
+          {
+            "option": "A",
+            "text": "The job requires typing, filing, and to answer phones."
+          },
+          {
+            "option": "B",
+            "text": "The job requires typing, filing, and answering phones."
+          },
+          {
+            "option": "C",
+            "text": "The job requires typing, to file, and phone answering."
+          },
+          {
+            "option": "D",
+            "text": "The job requires to type, to file, and to answer phones."
+          }
+        ],
+        "answer": "B",
+        "explanation": "This version maintains parallel structure by using the -ing form consistently."
+      },
+      {
+        "id": 66,
+        "category": "Knowledge of Language",
+        "difficulty": "medium",
+        "question": "Which revision eliminates redundancy?",
+        "choices": [
+          {
+            "option": "A",
+            "text": "The final conclusion of the study shows conclusive results."
+          },
+          {
+            "option": "B",
+            "text": "The study's conclusion shows clear results."
+          },
+          {
+            "option": "C",
+            "text": "The final end of the study shows results that conclude."
+          },
+          {
+            "option": "D",
+            "text": "The study's final concluding results show conclusions."
+          }
+        ],
+        "answer": "B",
+        "explanation": "This version removes redundant words while maintaining clear meaning."
+      },
+      {
+        "id": 67,
+        "category": "Production of Writing",
+        "difficulty": "medium",
+        "question": "Which transition best connects these sentences?\nThe city invested in public transportation. _____ traffic congestion decreased significantly.",
+        "choices": [
+          { "option": "A", "text": "However," },
+          { "option": "B", "text": "Similarly," },
+          { "option": "C", "text": "Consequently," },
+          { "option": "D", "text": "Nevertheless," }
+        ],
+        "answer": "C",
+        "explanation": "'Consequently' best shows the cause-effect relationship between the investment and reduced congestion."
+      },
+      {
+        "id": 68,
+        "category": "Conventions of Standard English",
+        "difficulty": "hard",
+        "question": "Which sentence demonstrates correct pronoun reference?",
+        "choices": [
+          {
+            "option": "A",
+            "text": "When students take exams, you should get enough sleep."
+          },
+          {
+            "option": "B",
+            "text": "When students take exams, they should get enough sleep."
+          },
+          {
+            "option": "C",
+            "text": "When students take exams, one should get enough sleep."
+          },
+          {
+            "option": "D",
+            "text": "When students take exams, we should get enough sleep."
+          }
+        ],
+        "answer": "B",
+        "explanation": "The pronoun 'they' correctly refers to its antecedent 'students.'"
+      },
+      {
+        "id": 69,
+        "category": "Knowledge of Language",
+        "difficulty": "hard",
+        "question": "Which revision best maintains consistent tone and style?",
+        "choices": [
+          {
+            "option": "A",
+            "text": "The scientific analysis revealed significant findings, and it was super cool."
+          },
+          {
+            "option": "B",
+            "text": "The scientific analysis revealed significant findings and demonstrated important implications."
+          },
+          {
+            "option": "C",
+            "text": "The scientific analysis revealed significant findings, and it was totally awesome."
+          },
+          {
+            "option": "D",
+            "text": "The scientific analysis revealed significant findings, and we were like, wow!"
+          }
+        ],
+        "answer": "B",
+        "explanation": "This version maintains a consistent formal, scientific tone throughout."
+      },
+      {
+        "id": 70,
+        "category": "Production of Writing",
+        "difficulty": "medium",
+        "question": "Which placement of the following sentence would best support a paragraph about climate change solutions?\n'Renewable energy costs have decreased by 70% since 2010.'",
+        "choices": [
+          { "option": "A", "text": "At the end of the paragraph" },
+          {
+            "option": "B",
+            "text": "After discussing economic barriers to adoption"
+          },
+          { "option": "C", "text": "Before introducing the topic" },
+          {
+            "option": "D",
+            "text": "In the middle of a discussion about wildlife"
+          }
+        ],
+        "answer": "B",
+        "explanation": "Placing the sentence after discussing economic barriers provides a logical connection and supports the argument for climate change solutions."
+      }
+    ]
+  ]
+}
