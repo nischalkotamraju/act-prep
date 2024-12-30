@@ -3,9 +3,9 @@
   "name": "It's in the name! With this amazing tool, you can earn that 36 on your upcoming ACT and get into your dream school!",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "logo.png",
       "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "type": "image"
     }
   ],
   "start_url": ".",
