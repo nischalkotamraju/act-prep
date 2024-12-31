@@ -9,7 +9,6 @@ const Home = () => {
     <>
       <main className="bg-neutral-900 min-h-screen text-white flex items-center justify-center">
         <section className="flex flex-col md:flex-row items-center justify-between px-6 md:px-20 py-12 md:py-20 gap-24 md:gap-48">
-
           {/* Icon */}
           <div className="mt-10 md:mt-0">
             <h1 className="font-bold text-emerald-500 text-9xl">36</h1>
